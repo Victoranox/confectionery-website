@@ -1,12 +1,12 @@
 html {
-  font-family: "Offside", cursive;
+  font-family: 'Offside', cursive;
 }
 
 body {
   background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+CjxyZWN0IHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgZmlsbD0iI2ZmZiI+PC9yZWN0Pgo8cmVjdCB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPC9zdmc+");
 }
 
-main{
+main {
   background-color: #f07777;
 }
 
@@ -19,7 +19,7 @@ main{
 }
 
 h1, h2 {
-  font-family: "Kavoon";
+  font-family: 'Kavoon';
 }
 
 a {
@@ -72,7 +72,6 @@ a:hover {
   color: #fff;
   text-shadow: 2px 2px #f03333;
 }
-
 
 .prices {
   background-color: #f5f2f0;
