@@ -1,0 +1,142 @@
+html {
+  font-family: "Offside", cursive;
+}
+
+body {
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+CjxyZWN0IHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgZmlsbD0iI2ZmZiI+PC9yZWN0Pgo8cmVjdCB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPC9zdmc+");
+}
+
+main{
+  background-color: #f07777;
+}
+
+.color-brand {
+  color: #f05555;
+}
+
+.color-brand-dark {
+  color: #f03333;
+}
+
+h1, h2 {
+  font-family: "Kavoon";
+}
+
+a {
+  color: #f03333;
+}
+
+a:hover {
+  color: #f09999;
+}
+
+.max-length {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.masthead {
+  background-color: #f03333;
+  color: #fff;
+}
+
+.nav {
+  position: relative;
+  background-color: #c3c3c3;
+  z-index: 2;
+}
+
+.nav a {
+  display: inline-block;
+  padding: .5rem .75rem;
+
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #fff;
+  color: #f05555;
+}
+
+.about {
+  position: relative;
+}
+
+.nav a:focus {
+  color: black;
+}
+
+.about-content {
+  background-color: #f09999;
+  color: #fff;
+  text-shadow: 2px 2px #f03333;
+}
+
+
+.prices {
+  background-color: #f5f2f0;
+}
+
+.products {
+  background-color: #f07777;
+
+  color: #fff;
+}
+
+.inner {
+  margin: .5rem;
+}
+
+.card img {
+  border-radius: 20px 20px 0 0;
+}
+
+.card {
+  background-color: #ccc;
+  border-radius: 20px;
+  background-image: linear-gradient(to top right, rgba(230, 65, 65, 0), rgba(240, 85, 85, .4));
+}
+
+th,
+td {
+  border-color: #dfdcda;
+}
+
+.news {
+  background-color: #eeebe9;
+}
+
+.contact {
+  background-color: #dfdcda;
+}
+
+.btn {
+  background-color: #f03333;
+  border-color: #f05555;
+
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #f09999;
+  border-color: #f03333;
+}
+
+.footer {
+  background-color: #f05555;
+  color: #fff;
+}
+
+@media only screen and (min-width: 35em) {
+
+  .about-content {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, rgba(240, 85, 85, 0), rgba(240, 85, 85, .8));
+  }
+
+}
