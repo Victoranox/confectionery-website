@@ -4,11 +4,12 @@
   <meta charset="utf-8">
   <title>Beaus Bonbons</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="shortcut icon" href="images/favicon.ico">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Kavoon|Offside" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kavoon" rel="stylesheet">
 </head>
 <body>
 
@@ -19,10 +20,10 @@
 
   <header role="banner" class="masthead">
     <div class="wrapper pad-t-1-2 pad-b-1-2 gutter-1-2">
-      <i class="inline-block">
-        <img class="icon i-64" src="images/marshmallow.svg" alt="marshmallow-icon">
+      <i class="inline-block circle">
+        <img class=" con i-64" src="images/marshmallow.svg" alt="marshmallow-icon">
       </i>
-      <h1 class="push-0 inline-block">Beaus Bonbons</h1>
+      <h1 class="push-0 inline-block gutter-1-2 pad-t-1-4">Beaus Bonbons</h1>
     </div>
     <nav role="navigation" id="nav" class="nav">
       <div class="wrapper gutter-1-2">
@@ -56,34 +57,38 @@
         <div class="pad-b">
           <h2 class="gutter-1-2 push-0">Products</h2>
           <p class="gutter-1-2 micro max-length">Try our scrumptious white chocolate mousse drops, or our gourmet dusted marshmallows made daily. knowing that our confection’s pleasures go beyond that of taste, he uses it as a canvas to make it a feast for your eyes. Painting with cocoa butter, our talented candy makers employ dozens of techniques to achieve unique, incomparable designs.</p>
-          <div class="grid">
-            <ul class="unit flex [ xs-1 s-1 m-1 l-1 ] list-group">
-              <div class="grid">
-                <li class="card pad-0 unit [ xs-1 s-1 m-1-2 l-1-3 ] gutter">
-                  <img class="img-flex push" src="images/blue-heart.jpg" alt="" aria-describedat="#marshmallow">
-                  <div class="gutter-1-4" id="marshmallow">
-                    <h3 class="mega push-0">Marshmallows</h3>
-                    <p class="micro">Our powder dusted specialty marshmallows are the perfect ingredient for an unforgettable gift for any occasion. They come in blue, pink, cocoa, yellow and rainbow.</p>
+          <div class="unit [ xs-1 s-1 m-1 l-1 ] gutter-1-2">
+            <ul class="grid grid-stretch list-group">
+              <li class="card unit [ xs-1 s-1 m-1-2 l-1-3 ] unit-content-distribute pad-r">
+                <div class="gutter-1-4" id="marshmallow">
+                  <div class="comp content-fill">
+                    <img class="img-flex push-1-4" src="images/blue-heart.jpg" alt="" aria-describedat="#marshmallow">
+                    <h3 class="island-1-4 mega push-0">Marshmallows</h3>
+                    <p class="island-1-4 micro content-fill">Our powder dusted specialty marshmallows are the perfect ingredient for an unforgettable gift for any occasion. They come in blue, pink, cocoa, yellow and rainbow.<br><br><br></p>
                   </div>
-                </li>
-                <li class="card pad-0 unit [ xs-1 s-1 m-1-2 l-1-3 ] gutter">
-                  <img class="img-flex push" src="images/choc-macs.jpg" alt="" aria-describedat="#macarons">
-                  <div class="gutter-1-4" id="macarons">
-                    <h3 class="mega push-0">Macaroons</h3>
-                    <p class="micro">Our macarons are made fresh and come in a wide variety of flavors! Our top seller is the chocolate fudge macaron, but there are many more to choose from! Including strawberry shortcake, raspberry kiss, white chocolate hazelnut, and lemon poppy seed bliss.</p>
+                </div>
+              </li>
+              <li class="card pad-0 unit [ xs-1 s-1 m-1-2 l-1-3 ] unit-content-distribute pad-r">
+                <div class="gutter-1-4" id="macarons">
+                  <div class="comp content-fill">
+                    <img class="img-flex push-1-4" src="images/choc-macs.jpg" alt="" aria-describedat="#macarons">
+                    <h3 class="island-1-4 mega push-0">Macaroons</h3>
+                    <p class="island-1-4 micro content-fill">Our macarons are made fresh and come in a wide variety of flavors! Our top seller is the chocolate fudge macaron, but there are many more to choose from! Including strawberry shortcake, raspberry kiss, white chocolate hazelnut, and lemon poppy seed bliss.</p>
                   </div>
-                </li>
-                <li class="card pad-0 unit [ xs-1 s-1 m-1-2 l-1-3 ] gutter">
-                  <img class="img-flex push" src="images/lemon.jpg" alt="" aria-describedat="#mousse">
-                  <div class="gutter-1-4" id="mousse">
-                    <h3 class="mega push-0">Mousse Bites</h3>
-                    <p class="micro">The essential to any box of confections- these delicate bites are akin to a truffle, but lighter and fluffier. They’re guaranteed to tantalize the palette and make gorgeous party pieces.</p>
+                </div>
+              </li>
+              <li class="card pad-0 unit [ xs-1 s-1 m-1-2 l-1-3 ] unit-content-distribute">
+                <div class="gutter-1-4" id="mousse">
+                  <div class="comp content-fill">
+                    <img class="img-flex push-1-4" src="images/lemon.jpg" alt="" aria-describedat="#mousse">
+                    <h3 class="island-1-4 mega push-0">Mousse Bites</h3>
+                    <p class="island-1-4 micro content-fill">The essential to any box of confections- these delicate bites are akin to a truffle, but lighter and fluffier. They’re guaranteed to tantalize the palette and make gorgeous party pieces.<br><br><br></p>
                   </div>
-                </li>
-              </div>
+                </div>
+              </li>
             </ul>
-
           </div>
+
         </div>
       </section>
 
@@ -126,11 +131,11 @@
         </div>
       </section>
 
-      <section class="wrapper news pad-t pad-b" id="news">
-        <div class="gutter-1-2">
+      <section class=" grid wrapper news pad-t pad-b" id="news">
+        <div class="gutter-1-2 unit [ xs-1 s-1 m-1 l-1 ]">
           <h2 class="push-0 color-brand-dark">News</h2>
-          <p class="mili max-length">We're an active part of Downtown Peterborough, check out local events we support!</p>
-          <ol class="list-group">
+          <p class="mili max-length">We're an active part of Downtown Peterborough, check out the local events we support!</p>
+          <ol class="grid list-group">
             <li class="island-1-4 push unit [ xs-1 s-1 m-1-3 l-1-3 ]">
               <h3 class="push-0"><a href="#">Peterborough Dragon Boat Festival</a></h3>
               <p class="push-0">The biggest boat race in ontario hosted here in Peterborough.<br><a href="#" aria-label="Read more about Dragon Boat Festival">Read&nbsp;more…</a></p>
@@ -152,7 +157,7 @@
           <h2 class="push-0 color-brand-dark gutter-1-2">Order</h2>
           <p class="mega max-length gutter-1-2">Send us a message! Ask about catering or our quality ingredients.</p>
 
-          <form class="grid push-0"  method="POST" action="https://formspree.io/ceciliableszynski@gmail.com">
+          <form class="grid push-0" method="POST" action="https://formspree.io/ceciliableszynski@gmail.com">
             <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
               <label for="name" class="push-1-8">Your name</label>
               <input id="name" type="text" name="name">
